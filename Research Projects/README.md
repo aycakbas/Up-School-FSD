@@ -1,1 +1,10 @@
+<h1>Blazor Nedir?</h1>
+
+Blazor, C# kullanarak Single Page Application (SPA) oluşturmanıza ve tarayıcıda herhangi bir standart .NET kitaplığını çalıştırmanıza izin veren bir çerçevedir. Blazor'dan önce bir SPA oluşturmak için kullanılan seçenekler JavaScript kullanan Angular, React, Vue.js (ve diğerleri) veya TypeScript gibi (zaten JavaScript'te derlenen) diğer üst düzey dillerden biri olarak karşımıza gelmekteydi. Microsoft tarafından bakarsak, .NET web uygulamalarının şu an halen üzerinde çalışılan Blazor adında bir .NET web framework’ü ile, bildiğimiz browser üzerinde çalıştırılmasıdır. Kısaca backend’e gerek kalmadan, frontend tarafta yazılan C# kodlarının browser tarafında derlenip çalıştırılmasıdır. Yani; Blazor WebAssembly altında çalışan, .NET’te yazılmış tarayıcı tabanlı (istemci tarafı) uygulamalar için bir frameworkdür. Developerlara, sunucu ve istemci arasında kullanılan tüm.Net kodlarını browser üzerede uçtan uca kullanmamıza olanak verir. Ayrıca aynı Angular ve React’da olduğu gibi SinglePageApplication(SPA) platformunun tüm avantajlarını bize sunar. WebAssembly ile ilgili bir diğer şey ise, Browser’ın çalıştırıldığı zaman kodlarda late-binding’e izin verilmesidir. Yani farklı modüller birleşerek bir uygulama oluşturabilir. Örneğin önceden hazırlanmış standart bir modül, başka bir modül içerisine referans verilerek kullanılabilir.
+
+<h2>Server App ve WebAssembly App Nedir?</h2>
+  
+Server App bizim için olayın serverda gerçekleştiğidir yani olay server side(sunucu tarafı) bir uygulama gibi düşünebiliriz. Bir server’da istekler yapıldığında o client için html render ediliyor ve client’a veriliyor. Bu işlemi ASP.NET gibi düşünebiliriz.
+WebAssembly App ise aslında bizim için SPA(Single Page Application)lara benziyor. Yani modern Angular, React nasıl çalışıyorsa Blazor WebAssembly olarak çalıştığımızda aynı mantık ile çalışıyor.
+Konular hemen hemen aynıdır. Sadece çalıştırma ortamına yönelik configuration ve bir takım değişiklikler dışında birini yapmamız arasında fark yoktur.
 
