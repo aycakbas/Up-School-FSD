@@ -1,10 +1,26 @@
 <h1>Blazor Nedir?</h1>
-
+<img src= "https://blog.christian-schou.dk/content/images/2022/08/How-To-Build-A-Blazor-Web-App.png" >
 Blazor, C# kullanarak Single Page Application (SPA) oluşturmanıza ve tarayıcıda herhangi bir standart .NET kitaplığını çalıştırmanıza izin veren bir çerçevedir. Blazor'dan önce bir SPA oluşturmak için kullanılan seçenekler JavaScript kullanan Angular, React, Vue.js (ve diğerleri) veya TypeScript gibi (zaten JavaScript'te derlenen) diğer üst düzey dillerden biri olarak karşımıza gelmekteydi. Microsoft tarafından bakarsak, .NET web uygulamalarının şu an halen üzerinde çalışılan Blazor adında bir .NET web framework’ü ile, bildiğimiz browser üzerinde çalıştırılmasıdır. Kısaca backend’e gerek kalmadan, frontend tarafta yazılan C# kodlarının browser tarafında derlenip çalıştırılmasıdır. Yani; Blazor WebAssembly altında çalışan, .NET’te yazılmış tarayıcı tabanlı (istemci tarafı) uygulamalar için bir frameworkdür. Developerlara, sunucu ve istemci arasında kullanılan tüm.Net kodlarını browser üzerede uçtan uca kullanmamıza olanak verir. Ayrıca aynı Angular ve React’da olduğu gibi SinglePageApplication(SPA) platformunun tüm avantajlarını bize sunar. WebAssembly ile ilgili bir diğer şey ise, Browser’ın çalıştırıldığı zaman kodlarda late-binding’e izin verilmesidir. Yani farklı modüller birleşerek bir uygulama oluşturabilir. Örneğin önceden hazırlanmış standart bir modül, başka bir modül içerisine referans verilerek kullanılabilir.
 
-<h2>Server App ve WebAssembly App Nedir?</h2>
-  
+<h1>Server App ve WebAssembly App Nedir?</h1>
+<img src= "https://i0.wp.com/thecodeblogger.com/wp-content/uploads/2022/09/Blazor-Getting-Started.jpg?fit=1200%2C800&ssl=1">
 Server App bizim için olayın serverda gerçekleştiğidir yani olay server side(sunucu tarafı) bir uygulama gibi düşünebiliriz. Bir server’da istekler yapıldığında o client için html render ediliyor ve client’a veriliyor. Bu işlemi ASP.NET gibi düşünebiliriz.
 WebAssembly App ise aslında bizim için SPA(Single Page Application)lara benziyor. Yani modern Angular, React nasıl çalışıyorsa Blazor WebAssembly olarak çalıştığımızda aynı mantık ile çalışıyor.
 Konular hemen hemen aynıdır. Sadece çalıştırma ortamına yönelik configuration ve bir takım değişiklikler dışında birini yapmamız arasında fark yoktur.
+
+<h1>Memento Design Pattern Nedir? </h1>
+<img src= "https://miro.medium.com/max/1200/1*firqUPZL5NJkWJoxp1QUHQ.png">
+Memento kelime anlamı ile "hatıra" demektir. Memento pattern ise "hatıra kalıbı" olarak düşünülebilir. Memento Pattern, Behavioral Patterns yani "Davranışsal Kalıplar" kategorisinde yer alan bir kalıp türüdür. Yazılım dilinde memento patterni basitçe düşünmek ve anlatmak gerekirse hatırlayıcı işlevde bir tasarım olarak tanımlayabiliriz. Bir nesnenin başlangıç ve T anlarındaki durumunu kayda alarak ilerleyen aşamada bu nesne üzerinde yaptığımız değişiklikleri geri alarak kontrol etmemizi ve incelememizi sağlayan bir sistem olarak algılayabiliriz.Bir uygulamanın yaşam döngüsü boyunca, bir nesnenin durumu değişebilir. Daha sonra almak için mevcut durumun bir kopyasını saklamak isteyebilirsiniz. Örneğin, bir belge yazarken mevcut durumu her 10 dakikada bir otomatik olarak kaydetmek isteyebilirsiniz veya bir oyununuz var ve bu oyunda oyuncunuzun seviyedeki mevcut konumunu, skoru ve mevcut envanteri ile kaydetmek isteyebilirsiniz. İşte böyle durumlarda durumun bir kopyasını kaydetmek ve gerekirse daha sonra geri almak için Memento kalıbını kullanabilirsiniz. Memento Patern, Command Pattern gibi, uygulamanızda UNDO/REDO işlevselliğini uygulamak için de yaygın olarak kullanılır. UNDO/REDO için kullanılan bu Command ve Memento kalıpları arasındaki fark ise, Command Design Pattern, bir isteği kendisi ile ilgili tüm bilgileri içeren bağımsız bir nesneye dönüştüren davranışsal bir tasarım desenidir. Bu dönüşüm, istekleri metot parametresi olarak göndermenize, işlenmelerini geciktirmenize ya da sıraya sokmanıza ve geri alınamaz işlemleri desteklemenize olanak verir. Memento Design Pattern ise bir nesnenin önceki durumunu, uygulama detaylarını açığa çıkartmadan kaydetmeniz ve geri getirmenizi sağlayan bir tasarım desenidir.
+UML diyagramı göz önüne alındığında; 
+ 
+<img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*Te7g0EHylsotgYcWkrE2Ew.png"> 
+ 
+(UML, bir programlama dili değil yazılım geliştirme için kullanılan standart bir diyagram çizme ve ilişkisel modelleme dilidir. Yazılım sistemlerinin nasıl modellenebileceğini belirleyen ve açıklayan yöntemlerin bir araya toplanmış halidir.) 
+Originator, CareTaker ve Memento kavramları göze çarpmaktadır. 
+
+<b>- Originator :</b> Ara sıra değişen dahili bir duruma sahip bir nesnedir. Yaratıcı, mucit, üretken olarak ifade edebileceğimiz bu nesne kopyası saklanacak olan nesneyi ifade etmektedir. Bu nesne, kendi kopyasının oluşturulmasından sorumlu olduğu gibi geri yüklenmesinden de sorumludur.
+
+<b>- Caretaker :</b> Originator'dan Mementos'u yaratmasını veya geri yüklemesini isteyen bir sınıftır. Bakıcı daha sonra onları bir önbelleğe veya hatıra deposuna kaydeder. Bakıcı olarak nitelendirilen bu nesne, Memento referansını barındırmakta ve yapılacak tüm işlemlerin organizasyonunu sağlamaktadır.
+
+<b>- Memento :</b> Oluşturanın dahili durumunun, daha sonra mevcut durumunu değiştirmek üzere oluşturana geri yüklenebilen bir kopyasıdır. Kopyalanacak nesnenin hangi özelliklerinin tutulacağı, bir başka deyişle hangi değerlerinin işleneceğini belirttiğimiz nesnedir.
 
