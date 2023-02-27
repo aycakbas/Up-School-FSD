@@ -24,3 +24,77 @@ Originator, CareTaker ve Memento kavramları göze çarpmaktadır.
 
 <b>- Memento :</b> Oluşturanın dahili durumunun, daha sonra mevcut durumunu değiştirmek üzere oluşturana geri yüklenebilen bir kopyasıdır. Kopyalanacak nesnenin hangi özelliklerinin tutulacağı, bir başka deyişle hangi değerlerinin işleneceğini belirttiğimiz nesnedir.
 
+<h1>Object Oriented Programming (OOP) Nedir?</h1>
+<img src="https://iou.ac/wp-content/uploads/2021/07/Object-Oriented-Programming-1.png"> 
+Object Oriented Programming diğer adı ile Nesne Yönelimli Programlama; yazılım tasarımını işlevler ve mantık yerine, veri veya nesneler etrafında düzenleyen bir programlama dili modelidir. Günümüzde yazılım geliştirme teknolojilerinde büyük önem taşımaktadır. OOP dendiğinde her işlevin nesnel olarak soyutlandığı bir programlama şeklidir. Bu yöntemi günlük hayatımıza uyarlarsak dolaplarımızdaki kıyafetlerimizi rengi, türü, ham maddes vb. gibi özelliklere göre ayırmak ve kullanmak istediğimizde daha kolay bulmak gibi düşünebilirsiniz. Bu durumu yazılım geliştirme için düşündüğümüzde, yazılımların karışık olması ve boyutlarının artması belirli bir nitelik düzeyini korumak için gereken maliyeti, zamanı ve çabayı arttırır. OOP yöntemi ile bu sorunların önüne geçmek amaçlanmıştır ve yöntem başarılı olmuştur. 
+
+<h2>OOP Yönteminin Faydaları</h2>
+Nesne oluşturma bir sınıf içerisinde toplanır ve tüm projelerde kullanılabilirliğe olanak sağlar.
+Sınıfların 1 kez oluşturulması sayesinde uzun kodları tekrardan yazmak yerine kısa kodlamalar ile çalıştırılabilir.
+Uzun kodların tekrar yazılmasının engellenmesi sayesinde geliştirme süreci kısalır.
+Nesneler birbirinden bağımsız olduğundan bilgi gizliliği konusunda avantaj sağlar.
+Sınıflar sayesinde tüm projelerde değişiklik yapmak yerine tek bir sınıfta değişiklik yapılıp tüm projelerde çalışması sağlanır. Bu zaman kaybını büyük ölçüde azaltır.
+Kodların okunabilirliği artar.
+
+<h2>OOP Sınıf (Class) Nedir ?</h2>
+Sınıflar değişkenleri ve methodları saklayan sistemlerdir. Bunu giysi dolabı örneğimizden hareketle dolap içinde bölünmüş raflar gibi düşünebilirsiniz. Sınıfların içerisindeki değişkenler kullanacağımız verileri saklar. Methodlar ise sınıflar içerisinde yazılmış olan fonksiyonlardır. Veri saklama veya veri toplama görevini üstlenen sistemlerdir. 
+
+<h2>OOP Nesne (Object) Nedir ?</h2>
+Doğada yer alan her şey birer nesnedir. Evimizden sokakta gördüklerimize kadar her şeyi nesne olarak düşünebiliriz. Bu durumu teorik anlamda düşünecek olursak bir şeyi nesne olarak tanımlayabilmemiz için içerisinde durum ve davranış barındırması gereklidir. Yani nesneler verileri saklayan ve bu veriler üzerinde işlem yapan metodları saklayan bileşenlerdir. 
+
+<h2>OOP C# OOP'nin Özellikleri Nelerdir ?</h2>
+<img src="https://emrecelen.com.tr/wp-content/uploads/2021/04/c-oop-kavrami.png">
+Ticari bir işletme düşünelim. C# OOP kavramına göre bu işletme programlarımızda oluşturmuş olduğumuz sınıflara karşılık gelir. Sınıf içerisindeki özelliklerimiz, tanımlamalarımız ise o işletmenin çalışanlarını oluşturur. Bu çalışanlarda nesneye karşılık gelir. Sonuç olarak çalışanların birbirleri ile uyumlu ve organize bir şekilde etkileşim içerisinde bulunmaları C# OOP kavramını ortaya çıkartır.
+
+<h3>C# Abstraction (Soyutlama)</h3>
+Bir sınıfın özelliklerinin ve davranışlarının tanımlanmasına denir. Örneğin bir telefon markasını ele alalım. Telefon burada bir sınıfa karşılık gelmektedir. Telefonun işletim sistemi özellikleri, hafızası, rengi, modeli, üretim yılı gibi kavramlar özelliklerini anlatırken örneğin fotoğraf çekim kalitesi, bazı uygulamaları kullanım sırasındaki performansı, aramalardaki ses kalitesi vb. özellikler ise davranış yapılarını tanımlar ve bunları abstract methodlar ile gerçekleştiririz.
+
+<h3>C# Encapsulation (Kapsülleme)</h3>
+Encapsulation(Kapsülleme) kavramını günlük hayattan ele alacak olursak, özel hayatımızda sahip olduğumuz her alışkanlığı veya davranışı dış dünyaya tamamen yansıtmayız veya çok az bir kısmını yansıtırız. Örneğin bir arkadaşınızla veya sevdiğiniz biriyle sorun yaşadığınızı düşünün. Bu durumu tüm ortak çevrenize doğrudan yansıtmazsınız. Kısıtlı bir kısmı hakkında bilgi verirsiniz. Kapsülleme kavramıda programlar içerisinde aynı mantıkta çalışmaktadır. Aynı şekilde programlarımızda tanımladığımız sınıftaki özellik ve davranışları kapsülleme kullanarak dışarıya sunumunu kısıtlayabiliriz. Bu noktada erişim seviyelerinin çalışma mantığını iyi anlamak gerekmektedir. Aşağıdaki resimde yukarıdan aşağı gidildikçe (Private -> Public ) erişim kolaylaşırken aşağıdan yukarı doğru gidildiğinde (Public -> Private) erişim zorlaşmaktadır. Şimdi bu kavramları biraz detaylandıralım. 
+<img src="https://www.kodkampusu.com/wp-content/uploads/2021/04/KAPSULLEME-ERISIM-SEVIYESI.png">
+
+<h4>Private:</h4>
+Bir "özellik (property)"in veya "method"un sadece tanımlandığı sınıftan erişilebilmesini sağlar. Oluşturulan sınıf veya yapıların "public" olması açık bir şekilde belirtilmez ise, derleyici tarafından "private" olarak belirlenir.
+
+<h4>Default:</h4>
+Pakete özel anlamına gelir. Bu erişim belirleyicisi ile işaretlenen herşey sadece ve sadece aynı paket içerisinde tanımlanan sınıflar tarafından erişilebilir. Farklı paketlerde bulunan sınıflar erişemez.
+
+<h4>Protected:</h4>
+Sadece tanımlandığı sınıfın içinde ve o sınıftan türetilmiş diğer sınıfların içinde erişilebilir.
+
+<h4>Public:</h4>
+Sistemdeki bütün sınıfların erişebilmesini sağlar. Yalnızca aynı proje içinden değil, diğer projelerden de erişim sağlanabilir.
+
+<h3>C# Inheritance (Miras Alma / Kalıtım)</h3>
+Inheritance kavramını anlamak için örneğin Apple şirketini düşünelim. Bu tür büyük şirketlerin genelde farklı illerde ve hatta farklı ülkelerde bayileri bulunur. Bu bayiler ana şirkete bağlı ve ana şirketin belirli özelliklerine sahip oluşumlardır.
+C# Inheritance (Miras Alma / Kalıtım) kavramı da tamamen bu örnek ile ilişkilidir, sınıflar birbirinden türeyebilir ve türeyen sınıf üst sınıfın özelliklerine sahip olur. Programlama açısından düşünürsek örneğin bir okul içi yazılım hazırladığımızı düşünelim. Veliler,öğrenciler,öğretmenler,idareciler gibi Class'lar oluşturduğumuzu varsayalım. Bu 4 class'ta da ortak kullanılacak kavramları örneğin; Tc kimlik no, Yaş, iletişim bilgileri vb. durumları Person isimli oluşturduğumuz bir class'tan kalıtabiliriz. Bu hem karışıklığı önler hem de zaman tasarrufu sağlar. 
+
+<h3>C# Polymorphism (Çok Biçimlilik)</h3>
+Alt Sınıf ve Üst Sınıfın özelliklerinden farklı şekilde davranışlar göstermesine Polymorphism denir. Örneğin; bir nesnenin diğer bir nesneyle ortak özellikleri olmasına rağmen farklı özelliklerininde tanımlanabilmesine denir. Bu durumda üst  sınıflardan türeyen alt sınıflar her zaman aynı özellikleri göstermek durumunda değildir mantığı ile düşünebiliriz. 
+
+<h2>OOP Kullanan Yazılım Dilleri</h2>
+
+Phyton
+
+C++
+
+Objective-C
+
+Delphi
+
+Smalltalk
+
+Java
+
+Swift
+
+C#
+
+Perl
+
+Ruby
+
+PHP
+
+OOP yukarıdaki tüm ögelere sahiptir ancak ADA, JavaScript, Visual Basic gibi dillerden yoksundur.
+
