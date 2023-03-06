@@ -3,6 +3,7 @@
 using SimplePasswordGenerator.Console;
 using System.Collections;
 using System.ComponentModel.Design;
+using System.Runtime.InteropServices;
 
 string myText = "Welcome to the B E S T P A S S W O R D M A N A G E R !";
 int lengthText = myText.Length;
@@ -78,8 +79,15 @@ var characters = new Characters();
 Console.WriteLine("Great! How long do you want to keep your password length?");
 int passwordLength = Convert.ToInt32(Console.ReadLine());
 
+if (passwordLength == 0)
+{
+    Console.WriteLine("BAD GIRL!!");
+}
 
-Console.WriteLine(characters.GetRandomPassword(passwordLength));
+Console.WriteLine("-----------------------------------------------------------------------------------");
+Console.WriteLine($"Your password is : {characters.GetRandomPassword(passwordLength)}");
+Console.WriteLine("-----------------------------------------------------------------------------------");
+
 Console.ReadLine();
 
 

@@ -43,14 +43,22 @@ namespace SimplePasswordGenerator.Console
         {
             string charset = "";
 
+            if (SelectedChars.Length == 0)
+            {
+                return charset;
+            }
+
             for (int i=0; i<x; i++) 
             {
-                var randomIndex = _random.Next(x);
+                var randomIndex = _random.Next(0,SelectedChars.Length);
                 var character = SelectedChars[randomIndex];
                 charset += character;
             }
             return charset;
+
         }
+
+        
 
 
     }
