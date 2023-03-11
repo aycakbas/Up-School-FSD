@@ -98,3 +98,28 @@ PHP
 
 OOP yukarıdaki tüm ögelere sahiptir ancak ADA, JavaScript, Visual Basic gibi dillerden yoksundur.
 
+
+<h1>WEB API Nedir?</h1>
+<img src= "https://tempblog.figopara.com/wp-content/uploads/2020/09/API-1024x682.jpg" >
+WEB API kavramını anlamak için önce API kavramını ve çalışma şeklini anlamak gerekmektedir. Öncelikle API (Application Programming Interface) kavramının ne olduğu ve nasıl çalıştığı hakkında bilgi sahibi olmak WEB API kavramının anlaşılmasını kolaylaştıracaktır. 
+<h2> API ( Application Programming Interface) Nedir ve Nasıl Çalışır?</h2>
+API'ler, iki yazılım bileşeninin belirli tanımlar ve protokoller aracılığıyla birbiriyle iletişim kurmasına olanak tanıyan mekanizmalardır. Örneğin, AFAD veya Kandilli Rasathanesinin deprem yazılımları, sismometreler aracılığı ile elde edilen depremlerin verilerini içerir. Telefonunuzdaki deprem bilgi uygulaması, API'ler aracılığıyla bu sistemle "konuşur" ve telefonunuzda size bir gün içerisindeki veya belirli bir sayıda meydana gelen depremlerin lokasyon ve büyüklüklerini gösterir. API mimarisi genellikle istemci ve sunucu bakımından açıklanır. İsteği gönderen uygulamaya istemci, yanıtı gönderen uygulamaya ise sunucu adı verilir. Yani deprem bilgilendirme uygulamaları örneğinde, kurumların deprem veritabanı bir sunucu iken, mobil uygulama ise bir istemcidir. 
+
+<h2>WEB API Nedir ve Nasıl Çalışır?</h2>
+Bir Web API'si veya Web Hizmeti API'si, bir web sunucusu ile web tarayıcısı arasındaki uygulama işleme arabirimidir. Tüm web hizmetleri birer API'dir ancak tüm API'ler web hizmeti değildir. Asp .Net Web Api ise farklı türde sayısız client (browsers, mobile phones, tablets, pc, etc.) tarafından consume edilebilen HTTP protokolü üzerinden haberleşebilen servisler oluşturmak için kullanılan bir framework şeklinde tanımlayabiliriz.
+
+<h2>Başlıca WEB API Özellikleri </h2>
+
+Http Get, Post, Put ve Delete metodlarıyla çalışabildiğinden CRUD işlemelrini destekler,
+
+Response'larda HttpStatusCode ve Accept Header parametreleri bulunur,
+
+Response'lar kullanıcının istediği türde MediaTypeFormatter tarafından formatlanabilir,
+
+OData desteği bulunmaktadır ve Query yazması oldukça kolaydır,
+
+Bir uygulama içerisinde veya IIS üzerinde host edilebilir,
+
+MVC'nin bazı özelliklerini taşır (routing, controllers, action results, filter, model binders)
+
+
