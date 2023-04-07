@@ -1,0 +1,12 @@
+D:\UpSchool\UpSchool-TheBasics\UpStorage\src\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\UpSchool\UpSchool-TheBasics\UpStorage\src\Domain\bin\Debug\net7.0\Domain.dll
+D:\UpSchool\UpSchool-TheBasics\UpStorage\src\Domain\bin\Debug\net7.0\Domain.pdb
+D:\UpSchool\UpSchool-TheBasics\UpStorage\src\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\UpSchool\UpSchool-TheBasics\UpStorage\src\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\UpSchool\UpSchool-TheBasics\UpStorage\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\UpSchool\UpSchool-TheBasics\UpStorage\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\UpSchool\UpSchool-TheBasics\UpStorage\src\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\UpSchool\UpSchool-TheBasics\UpStorage\src\Domain\obj\Debug\net7.0\Domain.dll
+D:\UpSchool\UpSchool-TheBasics\UpStorage\src\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\UpSchool\UpSchool-TheBasics\UpStorage\src\Domain\obj\Debug\net7.0\Domain.pdb
+D:\UpSchool\UpSchool-TheBasics\UpStorage\src\Domain\obj\Debug\net7.0\ref\Domain.dll
