@@ -7,9 +7,9 @@ namespace Application.Features.Addresses.Queries.GetAll
         public string UserId { get; set; }
         public bool? IsDeleted { get; set; }
 
-        public AddressGetAllQuery(int userId, bool? isDeleted)
+        public AddressGetAllQuery(string userId, bool? isDeleted)
         {
-            UserId = UserId;
+            UserId = userId;
 
             IsDeleted = isDeleted;
         }

@@ -2924,11 +2924,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UpSchool\\UpSchool-TheBasics\\UpStorage\\src\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\AYÇA\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Ödevler\\Ödev3\\UpStorage\\src\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "D:\\UpSchool\\UpSchool-TheBasics\\UpStorage\\src\\WebApi\\WebApi.csproj",
+      "projectPath": "C:\\Users\\AYÇA\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Ödevler\\Ödev3\\UpStorage\\src\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\AYÇA\\.nuget\\packages\\",
-      "outputPath": "D:\\UpSchool\\UpSchool-TheBasics\\UpStorage\\src\\WebApi\\obj\\",
+      "outputPath": "C:\\Users\\AYÇA\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Ödevler\\Ödev3\\UpStorage\\src\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2950,11 +2950,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\UpSchool\\UpSchool-TheBasics\\UpStorage\\src\\Application\\Application.csproj": {
-              "projectPath": "D:\\UpSchool\\UpSchool-TheBasics\\UpStorage\\src\\Application\\Application.csproj"
+            "C:\\Users\\AYÇA\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Ödevler\\Ödev3\\UpStorage\\src\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\AYÇA\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Ödevler\\Ödev3\\UpStorage\\src\\Application\\Application.csproj"
             },
-            "D:\\UpSchool\\UpSchool-TheBasics\\UpStorage\\src\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\UpSchool\\UpSchool-TheBasics\\UpStorage\\src\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\AYÇA\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Ödevler\\Ödev3\\UpStorage\\src\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\AYÇA\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Ödevler\\Ödev3\\UpStorage\\src\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

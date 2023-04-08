@@ -6120,11 +6120,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UpSchool\\UpSchool-TheBasics\\UpStorage\\tests\\Application.UnitTests\\Application.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\AYÇA\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Ödevler\\Ödev3\\UpStorage\\tests\\Application.UnitTests\\Application.UnitTests.csproj",
       "projectName": "Application.UnitTests",
-      "projectPath": "D:\\UpSchool\\UpSchool-TheBasics\\UpStorage\\tests\\Application.UnitTests\\Application.UnitTests.csproj",
+      "projectPath": "C:\\Users\\AYÇA\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Ödevler\\Ödev3\\UpStorage\\tests\\Application.UnitTests\\Application.UnitTests.csproj",
       "packagesPath": "C:\\Users\\AYÇA\\.nuget\\packages\\",
-      "outputPath": "D:\\UpSchool\\UpSchool-TheBasics\\UpStorage\\tests\\Application.UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\AYÇA\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Ödevler\\Ödev3\\UpStorage\\tests\\Application.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

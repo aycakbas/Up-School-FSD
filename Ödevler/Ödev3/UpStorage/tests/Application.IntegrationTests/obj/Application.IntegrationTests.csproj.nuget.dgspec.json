@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UpSchool\\UpSchool-TheBasics\\UpStorage\\tests\\Application.IntegrationTests\\Application.IntegrationTests.csproj": {}
+    "C:\\Users\\AYÇA\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Ödevler\\Ödev3\\UpStorage\\tests\\Application.IntegrationTests\\Application.IntegrationTests.csproj": {}
   },
   "projects": {
-    "D:\\UpSchool\\UpSchool-TheBasics\\UpStorage\\tests\\Application.IntegrationTests\\Application.IntegrationTests.csproj": {
+    "C:\\Users\\AYÇA\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Ödevler\\Ödev3\\UpStorage\\tests\\Application.IntegrationTests\\Application.IntegrationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UpSchool\\UpSchool-TheBasics\\UpStorage\\tests\\Application.IntegrationTests\\Application.IntegrationTests.csproj",
+        "projectUniqueName": "C:\\Users\\AYÇA\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Ödevler\\Ödev3\\UpStorage\\tests\\Application.IntegrationTests\\Application.IntegrationTests.csproj",
         "projectName": "Application.IntegrationTests",
-        "projectPath": "D:\\UpSchool\\UpSchool-TheBasics\\UpStorage\\tests\\Application.IntegrationTests\\Application.IntegrationTests.csproj",
+        "projectPath": "C:\\Users\\AYÇA\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Ödevler\\Ödev3\\UpStorage\\tests\\Application.IntegrationTests\\Application.IntegrationTests.csproj",
         "packagesPath": "C:\\Users\\AYÇA\\.nuget\\packages\\",
-        "outputPath": "D:\\UpSchool\\UpSchool-TheBasics\\UpStorage\\tests\\Application.IntegrationTests\\obj\\",
+        "outputPath": "C:\\Users\\AYÇA\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Ödevler\\Ödev3\\UpStorage\\tests\\Application.IntegrationTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

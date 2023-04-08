@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+1iUgDiE4TeFRmxVRcCt2FYkUlvnHLudf2ZCrRHBZAk5EIC8ZIAuPR/rRqRr9nJc0WRLMjlbqyZXr9Yj479mRA==",
+  "dgSpecHash": "Qf8Zya5BD2NmXdI+Xxwm2iVKAjDGM2VWqmpdf+2NlWkjF48f8kAnJdrU8z3Y05qXSDBAQ6AOy+cf8PMa7QulpA==",
   "success": true,
-  "projectFilePath": "D:\\UpSchool\\UpSchool-TheBasics\\UpStorage\\src\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\AYÇA\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Ödevler\\Ödev3\\UpStorage\\src\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AYÇA\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\AYÇA\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
