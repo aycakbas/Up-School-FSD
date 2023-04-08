@@ -16,14 +16,15 @@ namespace WebApi.Controllers
             return Ok(await Mediator.Send(command));
         }
 
-        [HttpPost("GetById")]
-        public async Task<IActionResult> GetByIdAsync(AddressGetByIdQuery query)
+
+        [HttpPost("GetAll")]
+        public async Task<IActionResult> GetAllAsync(AddressGetAllQuery query)
         {
             return Ok(await Mediator.Send(query));
         }
 
-        [HttpPost("GetAll")]
-        public async Task<IActionResult> GetAllAsync(AddressGetAllQuery query)
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetByIdAsync(AddressGetByIdQuery query)
         {
             return Ok(await Mediator.Send(query));
         }
