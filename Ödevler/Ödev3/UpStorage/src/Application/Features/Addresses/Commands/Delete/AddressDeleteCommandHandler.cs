@@ -23,7 +23,7 @@ namespace Application.Features.Addresses.Commands.Delete
 
             if (entity == null)
             {
-                throw new Exception();
+                throw new Exception("The address was not found.");
             }
 
             entity.IsDeleted = true;
@@ -32,7 +32,7 @@ namespace Application.Features.Addresses.Commands.Delete
 
             await _applicationDbContext.SaveChangesAsync(cancellationToken);
 
-            return new();
+            return new($"The address named \"{entity.Name}\" was successfully deleted.");
         }
     }
 }

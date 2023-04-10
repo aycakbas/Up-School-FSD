@@ -1,7 +1,10 @@
 ﻿using Application.Common.Interfaces;
 using Domain.Common;
+using Domain.Entities;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using System.Net;
+using System;
 
 namespace Application.Features.Addresses.Commands.HardDelete
 {
@@ -22,14 +25,14 @@ namespace Application.Features.Addresses.Commands.HardDelete
 
             if (entity == null)
             {
-                throw new Exception();
+                throw new Exception("The address was not found.");
             }
 
             _applicationDbContext.Addresses.Remove(entity);
 
             await _applicationDbContext.SaveChangesAsync(cancellationToken);
 
-            return new();
+            return new($"The address named \"{entity.Name}\" was successfully deleted.");
         }
     }
 }

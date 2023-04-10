@@ -1,5 +1,6 @@
 ﻿using Application.Common.Interfaces;
 using Domain.Common;
+using Domain.Entities;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
@@ -42,7 +43,7 @@ namespace Application.Features.Addresses.Commands.Update
 
             await _applicationDbContext.SaveChangesAsync(cancellationToken);
 
-            return new();
+            return new($"The address named \"{entity.Name}\" was successfully updated.");
         }
     }
 }
