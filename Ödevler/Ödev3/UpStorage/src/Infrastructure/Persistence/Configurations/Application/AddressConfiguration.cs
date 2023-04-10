@@ -9,6 +9,8 @@ namespace Infrastructure.Persistence.Configurations.Application
     {
         public void Configure(EntityTypeBuilder<Address> builder)
         {
+            //Configurations added.
+
             // ID
             builder.HasKey(x => x.Id);
 
@@ -63,9 +65,6 @@ namespace Infrastructure.Persistence.Configurations.Application
             // IsDeleted
             builder.Property(x => x.IsDeleted).IsRequired();
             builder.Property(x => x.IsDeleted).HasDefaultValueSql("0");
-
-            builder.Property(x => x.AddressType).IsRequired();
-            builder.Property(x => x.AddressType).HasConversion<int>();
 
             // Relationships added. 
             builder.HasOne<User>(x => x.User)
