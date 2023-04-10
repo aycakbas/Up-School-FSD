@@ -35,11 +35,9 @@ namespace Infrastructure.Persistence.Configurations.Application
             builder.Property(c => c.AddressLine2).IsRequired(false);
             builder.Property(c => c.AddressLine2).HasMaxLength(100);
 
-
             // AddressType
             builder.Property(x => x.AddressType).IsRequired();
             builder.Property(x => x.AddressType).HasConversion<int>();
-
 
             // CreatedByUserId
             builder.Property(x => x.CreatedByUserId).IsRequired(false);
