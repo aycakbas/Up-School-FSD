@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rTxWfU8iGD0N+Olq0c/fuLfuAE1D23W5C1qDRb+G1vHMKieVIZ9m+UsiBYObaGM7MFyx1FLB0hZaokNhN27CEQ==",
+  "dgSpecHash": "h2mqAquF/c5HoUkM9n3lXAV8u+OuxhzR978W4D4ifr8weF7on88GgE7Vub1v8JHJjUxg7Agpclsc+YpNyDhBoQ==",
   "success": true,
-  "projectFilePath": "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\src\\LuckySister.Console\\LuckySister.Console.csproj",
+  "projectFilePath": "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\src\\LuckySister.Console\\LuckySister.Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AYC\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\AYC\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",

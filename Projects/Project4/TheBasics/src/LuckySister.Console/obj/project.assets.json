@@ -273,11 +273,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\src\\LuckySister.Console\\LuckySister.Console.csproj",
+      "projectUniqueName": "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\src\\LuckySister.Console\\LuckySister.Console.csproj",
       "projectName": "LuckySister.Console",
-      "projectPath": "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\src\\LuckySister.Console\\LuckySister.Console.csproj",
+      "projectPath": "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\src\\LuckySister.Console\\LuckySister.Console.csproj",
       "packagesPath": "C:\\Users\\AYC\\.nuget\\packages\\",
-      "outputPath": "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\src\\LuckySister.Console\\obj\\",
+      "outputPath": "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\src\\LuckySister.Console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -299,8 +299,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj": {
-              "projectPath": "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj"
+            "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj": {
+              "projectPath": "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj"
             }
           }
         }

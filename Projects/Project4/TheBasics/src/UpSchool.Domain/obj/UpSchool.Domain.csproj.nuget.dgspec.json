@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj": {}
+    "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj": {}
   },
   "projects": {
-    "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj": {
+    "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj",
         "projectName": "UpSchool.Domain",
-        "projectPath": "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj",
+        "projectPath": "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj",
         "packagesPath": "C:\\Users\\AYC\\.nuget\\packages\\",
-        "outputPath": "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\obj\\",
+        "outputPath": "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\src\\UpSchool.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

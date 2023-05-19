@@ -1853,11 +1853,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\UpSchool.WebApi\\UpSchool.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\UpSchool.WebApi\\UpSchool.WebApi.csproj",
       "projectName": "UpSchool.WebApi",
-      "projectPath": "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\UpSchool.WebApi\\UpSchool.WebApi.csproj",
+      "projectPath": "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\UpSchool.WebApi\\UpSchool.WebApi.csproj",
       "packagesPath": "C:\\Users\\AYC\\.nuget\\packages\\",
-      "outputPath": "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\UpSchool.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\UpSchool.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1880,11 +1880,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj": {
-              "projectPath": "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj"
+            "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj": {
+              "projectPath": "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj"
             },
-            "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\UpSchool.Persistence\\UpSchool.Persistence.csproj": {
-              "projectPath": "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\UpSchool.Persistence\\UpSchool.Persistence.csproj"
+            "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\UpSchool.Persistence\\UpSchool.Persistence.csproj": {
+              "projectPath": "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\UpSchool.Persistence\\UpSchool.Persistence.csproj"
             }
           }
         }

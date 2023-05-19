@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J3/LtCNldCBTwJR0965RFli3LWhiWUFgUbNn4azh8bA42jAsLxb/l0hUx3DpRrOuV82AN0Pc3W5AJBRv+huDtw==",
+  "dgSpecHash": "qWJonxo2mwBt+uJXxBY2jvXXfHiRauxiTEbcaV6f5EY++laBF6LfcFyoZnRGC6qzAat2dWO2mTCMGpSjXYB9Vw==",
   "success": true,
-  "projectFilePath": "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Wasm\\UpSchool.Wasm.csproj",
+  "projectFilePath": "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\src\\UpSchool.Wasm\\UpSchool.Wasm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AYC\\.nuget\\packages\\blazored.localstorage\\4.3.0\\blazored.localstorage.4.3.0.nupkg.sha512",
     "C:\\Users\\AYC\\.nuget\\packages\\blazored.toast\\4.1.0\\blazored.toast.4.1.0.nupkg.sha512",

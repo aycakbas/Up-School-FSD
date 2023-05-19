@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "crB/NqHwIoMiJf2j9897CgCB/hFOtqQaEOdKl/UESa/gumd09T5e9iSkGfBOCN3T53xeyXl9slB4RTN4ZUsDUA==",
+  "dgSpecHash": "G+SYFJzgXMopaOFtnb89k6L1JYHtyndP6wlIzNZEfv1zFGVD/7mJdVRzNb6y4N7e5rJOkrF/e53F0IDXHb5ibA==",
   "success": true,
-  "projectFilePath": "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\tests\\UpSchool.Domain.Tests\\UpSchool.Domain.Tests.csproj",
+  "projectFilePath": "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\tests\\UpSchool.Domain.Tests\\UpSchool.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AYC\\.nuget\\packages\\castle.core\\4.3.1\\castle.core.4.3.1.nupkg.sha512",
     "C:\\Users\\AYC\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",

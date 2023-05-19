@@ -140,6 +140,7 @@ namespace UpSchool.Domain.Tests.Services
         {
             // Arrange
             var userRepositoryMock = A.Fake<IUserRepository>();
+
             var cancelletionSource = new CancellationTokenSource();
 
             IUserService userService = new UserManager(userRepositoryMock);
@@ -171,6 +172,7 @@ namespace UpSchool.Domain.Tests.Services
         {
             // Arrange
             var userRepositoryMock = A.Fake<IUserRepository>();
+
             var cancelletionSource = new CancellationTokenSource();
 
             List<User> userList = new List<User>

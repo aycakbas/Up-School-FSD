@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OwpsgA+qoCX6/dZ3ExYOTWs2wTqBEFERnTLbk1HKC8hyLyN9Pdi948oJt/YxY6qCpEyLCFisRDR/v7ELjxq65A==",
+  "dgSpecHash": "jq3z9rzNOyhiWM/eTeJ4vlM6TlviFWL4LV2vFHFPhzII8JNsiAPvYQHVW5PJetF3vNbOe77wHBImUdkYacRuBQ==",
   "success": true,
-  "projectFilePath": "D:\\UpSchoolDers\\UpSchool-TheBasics\\TheBasics\\UpSchool.Persistence\\UpSchool.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\AYC\\Desktop\\UpSchool-FullStack-Development-Bootcamp\\Projects\\Project4\\TheBasics\\UpSchool.Persistence\\UpSchool.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AYC\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\AYC\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
