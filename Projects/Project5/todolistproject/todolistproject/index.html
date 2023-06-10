@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <div style="position: relative; text-align: center;">
+    <img src="/youcandothis.gif" alt="You Can Do This GIF" class="custom-gif" />
+  </div>
+  <title>ToDo</title>
+  <style>
+
+    .animal {
+      width: 100px;
+      height: 100px;
+      background-image: url('/iceagesid.gif');
+      background-size: cover;
+      position: absolute;
+      animation: animalAnimation 15s infinite;
+    }
+
+    @keyframes animalAnimation {
+      0% {
+        top: calc(90% - 20px); /* Ekranın biraz daha üstünde */
+        left: 0;
+      }
+      50% {
+        top: calc(90% - 20px); /* Ekranın biraz daha üstünde */
+        left: calc(100% - 100px); /* Ekranın sağ tarafında */
+      }
+      100% {
+        top: calc(90% - 20px); /* Ekranın biraz daha üstünde */
+        left: 0;
+      }
+    }
+    .custom-gif {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-100%, -225%);
+      width: 200px;
+      height: 200px;
+    }
+
+
+
+
+  </style>
+</head>
+<body style="background-color: #867070;">
+<div id="root"></div>
+<div class="animal"></div>
+<script type="module" src="/src/main.tsx"></script>
+</body>
+</html>

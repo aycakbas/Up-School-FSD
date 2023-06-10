@@ -1,0 +1,74 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #867070;
+}
+
+.TodoApp {
+  width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: #D5B4B4;
+}
+
+.TodoApp .input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.TodoApp .input-container .Input {
+  width: 100%;
+}
+
+.TodoApp h2 {
+  margin-bottom: 10px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.TodoList {
+  margin-top: 20px;
+  background-color: #F5EBEB;
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 400px;
+  overflow-y: auto;
+}
+
+.SortButtons {
+  margin-bottom: 10px;
+}
+
+.TodoList .List.Content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TodoList .List.Content .Button {
+  margin-left: 10px;
+}
+
+.TodoList .List.Item {
+  cursor: pointer;
+}
+
+.TodoList .List.Item:hover {
+
+  font-size: 16px;
+
+}
+
+.TodoList .List.Item .List.Content:first-child {
+  flex-grow: 1;
+}
+
+.TodoListContainer {
+  height: 300px;
+  overflow-y: auto;
+}
+
